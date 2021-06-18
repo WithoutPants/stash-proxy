@@ -1,0 +1,20 @@
+# leave empty for all addresses on localhost
+host: ""
+# port for local server
+port: 9988
+# stash server
+server_url: http://192.168.1.111:9999
+# path to ffmpeg on local machine
+ffmpeg_path: <path to>\ffmpeg.exe
+
+# server api key - required if stash server has authentication configured
+# api_key: <api key>
+
+# open chrome window on startup
+# chrome_path: <path to>\chrome.exe
+
+# logs to stdout by default. Uncomment to log to file instead.
+# log_file: log.txt
+
+# uncomment for debug level logging
+# log_debug: true
